@@ -1,0 +1,20 @@
+{
+  "name": "wordable",
+  "version": "1.0.0",
+  "description": "New words await.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8080",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "author": "Ben Forshey <hello@integrisweb.com> (integrisweb.com)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.isempty": "4.4.0",
+    "next": "5.1.0",
+    "prop-types": "15.6.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  }
+}
