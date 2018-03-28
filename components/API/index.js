@@ -20,7 +20,7 @@ class API extends React.Component {
   }
   async fetchFromAPI(word = '?random=true') {
     try {
-      const response = await fetch(`https://wordable-api-kiyepacvsk.now.sh/words/${word}`, {
+      const response = await fetch(`https://wordable-api-jttbxealfq.now.sh/words/${word}`, {
         method: 'GET',
         mode: 'cors',
         cache: 'default',
